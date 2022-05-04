@@ -1,104 +1,189 @@
-<html>
+<html lang="en">
 
 <head>
-    <body>
-        <center>
-    <meta name="Blog" content="width=device-width, initial-scale=1">
-    <style>
-        body {
-            font-family: cursive, Helvetica, sans-serif;
-            background-color: black;
-        }
-        
-        .button {
-            background-color: #181717;
-            /* Green */
-            border: none;
-            color: white;
-            padding: 10px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s;
-        }
-        
-        .button1 {
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        }
-        
-        .button2:hover {
-            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-        }
-        
-        .flip-card {
-            background-color: transparent;
-            width: 300px;
-            height: 300px;
-            perspective: 1000px;
-        }
-        
-        .flip-card-inner {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            text-align: center;
-            transition: transform 0.6s;
-            transform-style: preserve-3d;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        }
-        
-        .flip-card:hover .flip-card-inner {
-            transform: rotateY(180deg);
-        }
-        
-        .flip-card-front,
-        .flip-card-back {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-        }
-        
-        .flip-card-front {
-            background-color: #bbb;
-            color: rgb(64, 235, 226);
-        }
-        
-        .flip-card-back {
-            background-color: #b3b4f0;
-            color: white;
-            transform: rotateY(180deg);
-        }
 
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title> Solved - Anime Page </title>
+    <link rel="shortcut icon" href="https://i.pinimg.com/474x/44/dd/fc/44ddfc498ab679ee287ec92a3892f174.jpg" />
 </head>
+<style>
+    body {
+        align-items: center;
+        font-family: Cursive;
+        background-color: rgb(200, 241, 252);
+    }
+    
+    .card {
+        transition: 0.4s;
+        position: relative;
+        top: 0%;
+        margin: 10px;
+    }
+    
+    .card:hover {
+        position: relative;
+        top: -3%;
+        transition: 0.4s;
+    }
+    
+    button {
+        transition: 0.3s;
+        border: solid 1px #f0f3f7;
+        background-color: transparent;
+        color: #3b3b3a;
+        height: 38px;
+        border-radius: 0.1cm;
+    }
+    
+    button:hover {
+        transition: 0.3s;
+        background-color: #f0f3f7;
+        color: white;
+        margin-top: -5px;
+    }
+    
+  
+</style>
 
-<body alink="white" vlink="white">
-
-
-<div style="margin: 0 auto; position: absolute; top: 50%; left: 50%; margin-top: -150px; margin-left: -150px;">
-    <div class="flip-card">
-        <div class="flip-card-inner">
-            <div class="flip-card-front">
-                <img src="https://i.pinimg.com/originals/c1/d0/25/c1d025e9bb83de6f16b8453fad7b57f6.jpg" alt="image" style="width:100%;height:100%;">
+<body>
+    <nav class="navbar navbar-dark" style="background-color: #3b3b3a;">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <div class="container" style="max-height:35px;">
+                    <div class="row">
+                        <div class="col-sm">
+                            <img src="https://i.pinimg.com/originals/8a/97/05/8a97059600d0ac0842d06e09633b749e.jpg" alt="" width="30" height="30" class="d-inline-block align-text-center">
+                            <p style="position: absolute; left: 65px; top:25%">
+                                Solved - Home
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </nav>
+    <div class="container my-5 text-center" style="max-width: 580px;">
+        <h1> Waifu Material </h1>
+        <p class="lead"> How tf did you get in Here?
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <form action="https://twitter.com/SolvedCs" target="_blank">
+                            <button type="submit" class="btn btn-dark">
+                              My Twitter
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-sm">
+                        <form action="https://www.instagram.com/solved.cs/" target="_blank">
+                            <button type="submit" class="btn btn-dark">
+                            My Dm's
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-sm">
+                        <form action="https://www.actionfiguresitalia.it/it/statue-e-busti/to-love-ru-darkness-pvc-statue-1-4-momo-belia-deviluke-bare-leg-bunny-ver-24-cm-30193.html" target="_blank">
+                            <button type="submit" class="btn btn-dark">
+                              Buy me This :(
+                            </button>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="flip-card-back">
-                <h1>Solved</h1>
-                <p>Residence:Drill House</p>
-                <p>Scammer</p>
-                <p>Age: ???</p>
-                <p>Hobby:Finessser</p>
-                <button class="button button2"><a href="https://twitter.com/SolvedCs" target="_blank">Twitter!</a></button>
-               
+    </div>
+    <center>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card" style="width: 22rem; height: 22rem;">
+                        <img src="https://images.alphacoders.com/534/thumb-350-534111.png" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Rikka Takanashi</h5>
+                            <p class="card-text">"Rikka Takanashi is a chūnibyō practitioner Unlike Yuuta, she
+still suffers from chūnibyō.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="width: 22rem; height: 22rem;">
+                        <img src="https://static.wikia.nocookie.net/trinity-seven/images/1/18/Lilith_EP1_AN1.PNG/revision/latest?cb=20141010194313" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lilith Asami</h5>
+                            <p class="card-text">"Lilith Asami, is the Trinity Seven of the Luxuria Archive and teacher at the Royal Biblia Academy</p>                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="width: 22rem; height: 22rem;">
+                        <img src="https://www.drcommodore.it/wp-content/uploads/2021/10/fairy-tail-lucy-heartfilia-protagonista-cosplay-v3-425259-1-1024x576.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lucy Heartphilia</h5>
+                            <p class="card-text">Lucy Heartfilia  is a Mage of the Fairy Tail Guild,She is a member of  Natsu Team</p>                                                      
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="width: 22rem; height: 22rem;">
+                        <img src="https://img1.ak.crunchyroll.com/i/spire4-tmb/1317b1c42b418c1e11db8cfe6b0f7d5e1554193639_fwide.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Noella Silva</h5>
+                            <p class="card-text">Noelle Silva  is a noblewoman and the second daughter of the Clover Kingdom's House Silva</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="width: 22rem; height: 22rem;">
+                        <img src="https://images.everyeye.it/img-notizie/high-school-dxd-cosplay-rias-gremory-modella-russa-mk-ays-v3-532009.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Rias Gremory</h5>
+                            <p class="card-text">She is the Gremory Clan's heiress, She is  known as the Crimson-Haired Ruin Princess</p>                      
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="width: 22rem; height: 22rem;">
+                        <img src="https://www.asiaticafilmmediale.it/wp-content/uploads/2022/01/Lanime-Sono-Bisque-Doll-wa-Koi-wo-Suru-avra-12.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Marin Kitagawa</h5>
+                            <p class="card-text">Marin...................</p>                         
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="width: 22rem; height: 22rem;">
+                        <img src="https://cdn.anisearch.it/images/character/screen/60/60560/full/385496.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kanna Kamui</h5>
+                            <p class="card-text"> Kanna is a young female dragon, who was exiled from her world as a consequence of her pranks</p>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="width: 22rem; height: 22rem;">
+                        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/746650/ss_f37d319e513d037a0fef3046f239c5d5d11256bb.1920x1080.jpg?t=1599588759" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Vanilla</h5>
+                            <p class="card-text">Vanilla  is a clever and quiet catgirl Vanilla is prone to be misunderstood because she rarely expresses her emotions</p>                            
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
+    </center>
+    <nav class="navbar navbar-dark" style="background-color: #3b3b3a; height: 40px;margin-top: 20px;">
+        <a class="navbar-brand" href="#">
+            <p style="font-size: 0.4cm; position: absolute; left:10px; top: 25%;">
+             Done it by Myself Lmao
+            </p>
+        </a>
+        </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
